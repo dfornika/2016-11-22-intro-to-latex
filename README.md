@@ -15,4 +15,6 @@
 3. Divide the text into several sections using the `\section{}` and `\subsection{}` 
 
 ## Mathematical Equations
-1. 
+```tex
+\sum_{x=0}^n f(x)
+```
