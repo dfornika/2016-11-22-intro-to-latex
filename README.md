@@ -37,17 +37,32 @@ Equations can be inserted in-line between `$$` symbols, or inside an `equation` 
 LaTeX uses a system called BibTeX to insert references. You can get BibTeX references from Google Scholar.
 1. Create a new file called `references.bib`
 2. Paste this into your `.bib` file
-  @article{venter2001sequence,
-  title={The sequence of the human genome},
-  author={Venter, J Craig and Adams, Mark D and Myers, Eugene W and Li, Peter W and Mural, Richard J and Sutton, Granger G and Smith, Hamilton O and Yandell, Mark and Evans, Cheryl A and Holt, Robert A and others},
-  journal={science},
-  volume={291},
-  number={5507},
-  pages={1304--1351},
-  year={2001},
-  publisher={American Association for the Advancement of Science}
-}
-3.
+
+```
+    @article{venter2001sequence,
+    title={The sequence of the human genome},
+    author={Venter, J Craig and Adams, Mark D and Myers, Eugene W and Li, Peter W and Mural, Richard J and Sutton, Granger G and Smith, Hamilton O and Yandell, Mark and Evans, Cheryl A and Holt, Robert A and others},
+    journal={science},
+    volume={291},
+    number={5507},
+    pages={1304--1351},
+    year={2001},
+    publisher={American Association for the Advancement of Science}
+  }
+```
+
+3. Enter the following into the top of your `main.tex` file:
+
+```
+    \usepackage[
+    backend=biber,
+    style=numeric,
+    sorting=ynt
+    ]{biblatex}
+    
+    \addbibresource{references.bib}
+``` 
+\addbibresource{references.bib}
 
 ## Figures & Images
 Let's insert a figure into our document. Use this one, or find another picture from the web. You'll need to upload it into your ShareLaTeX project before you can insert it into the document.
