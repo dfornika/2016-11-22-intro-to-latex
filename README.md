@@ -17,11 +17,24 @@
 
 ## Mathematical Equations
 Equations can be inserted in-line between `$$` symbols, or inside an `equation` block:
+
 ```tex
 \begin{equation}
   \sum_{x=0}^n f(x)
 \end{equation}
 ```
+
+Note that equations are automatically numbered. We can give equations labels and then refer to them within the body of our text.
+
+```tex
+\begin{equation}
+  \label{eqn:sum}
+  \sum_{x=0}^n f(x)
+\end{equation}
+```
+
+We use the command `\ref{eqn:sum}` to generate a numbered reference to that equation. References will update automatically if equations are moved around or re-ordered.
+
 ### Some Useful Equation-Building Notation
 - Exponent: `^` eg: `e^{x}`
 - Subscript: `_` eg: `x_{i}`
