@@ -108,15 +108,15 @@ Tables can be a real pain in LaTeX! For large or complex tables, find a tool to 
 
 ```tex
 \begin{table}[]
-\centering
-\caption{It gets colder every day.}
-\label{table:temperature}
-\begin{tabular}{l l}
-Date       & Temperature \\
-2016-11-18 & 10          \\
-2016-11-19 & 9           \\
-2016-11-20 & 6          
-\end{tabular}
+  \centering
+  \caption{It gets colder every day.}
+  \label{table:temperature}
+    \begin{tabular}{l l}
+      Date       & Temperature \\
+      2016-11-18 & 10          \\
+      2016-11-19 & 9           \\
+      2016-11-20 & 6          
+  \end{tabular}
 \end{table}
 ```
 
