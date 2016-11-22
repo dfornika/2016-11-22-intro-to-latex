@@ -50,9 +50,7 @@ LaTeX uses a system called BibTeX to insert references. You can get BibTeX refer
     publisher={American Association for the Advancement of Science}
   }
 ```
-
 3. Enter the following into the top of your `main.tex` file:
-
 ```
     \usepackage[
     backend=biber,
@@ -62,7 +60,10 @@ LaTeX uses a system called BibTeX to insert references. You can get BibTeX refer
     
     \addbibresource{references.bib}
 ``` 
-\addbibresource{references.bib}
+4. Include a citation somewhere in your text by adding `\cite{venter2001sequence}`
+
+### Challenge
+Include three references in your file.
 
 ## Figures & Images
 Let's insert a figure into our document. Use this one, or find another picture from the web. You'll need to upload it into your ShareLaTeX project before you can insert it into the document.
