@@ -24,5 +24,6 @@ Equations can be inserted in-line between `$$` symbols, or inside an `equation` 
 ### Some Useful Equation-Building Notation
 - Exponent: `^` eg: `e^{x}`
 - Subscript: `_` eg: `x_{i}`
-- Fractions: `\frac{}{} eg: `\frac{x}{y}`
+- Fractions: `\frac{}{}` eg: `\frac{x}{y}`
 - Summation: `\sum{}` eg: `\sum_{n=0}^{\infty} x_{n}`
+- Radicals: `\sqrt[]{}` eg: `\sqrt{64}` or `\sqrt[3]{64}`
