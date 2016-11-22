@@ -88,7 +88,8 @@ LaTeX uses a system called BibTeX to insert references. You can get BibTeX refer
 4. Include a citation somewhere in your text by adding `\cite{venter2001sequence}`
 
 ### Challenge
-Include three references in your file.
+1. Include three references in your file.
+2. Change the reference style.
 
 ## Figures & Images
 Let's insert a figure into our document. Use this one, or find another picture from the web. You'll need to upload it into your ShareLaTeX project before you can insert it into the document.
