@@ -5,7 +5,7 @@
 2. Create a new project, name it whatever you'd like (eg. 'latex workshop')
 
 ## Basic Writing and Document Structure
-1. This isn't a writing workshop, so let's grab some dummy text to work with. Copy the paragraphs below into your 'main.tex' file after `\maketitle`
+1. This isn't a writing workshop, so let's grab some dummy text to work with. Copy the paragraphs below into your `main.tex` file after `\maketitle`
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac euismod diam, a semper neque. Vivamus ullamcorper enim et ultrices sodales. Pellentesque in neque quis justo tristique mollis eget luctus ligula. Nam enim elit, pretium at metus et, sodales aliquet nisl. Donec gravida elit varius arcu condimentum eleifend. Donec vitae commodo dui. Vivamus finibus enim at congue ultrices. In hac habitasse platea dictumst. Ut tincidunt urna quis mauris facilisis lacinia. Integer lorem augue, porttitor faucibus varius ac, vulputate et lectus. Pellentesque non mauris eget orci volutpat congue vel in ipsum. Aliquam tincidunt, metus vestibulum vestibulum dignissim, neque lectus ultrices mauris, non faucibus ante diam vel enim. Nullam tristique vel erat vel tempus. Nulla at elementum lectus.
 
