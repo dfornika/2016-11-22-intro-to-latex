@@ -19,7 +19,7 @@
 If you're writing a large document (book, thesis etc.) it is good practice to create a separate file for each chapter, then insert it into your `main.tex` file with the `\input{}` command.
 
 1. Create a new file, called `chapter1.tex` and enter some filler text.
-2. Add `input{chapter1}` to your `main.tex` file at the location where you'd like the contents of the `chapter1.tex` file inserted.
+2. Add `\input{chapter1}` to your `main.tex` file at the location where you'd like the contents of the `chapter1.tex` file inserted.
 
 ## Mathematical Equations
 Equations can be inserted in-line between `$$` symbols, or inside an `equation` block:
