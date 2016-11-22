@@ -37,5 +37,31 @@ Equations can be inserted in-line between `$$` symbols, or inside an `equation` 
 LaTeX uses a system called BibTeX to insert references. You can get BibTeX references from Google Scholar.
 
 ## Figures & Images
-
+Let's insert a figure into our document. Use this one, or find another picture from the web. You'll need to upload it into your ShareLaTeX project before you can insert it into the document.
 ![Geometry](http://latex.artofproblemsolving.com/4/7/7/4776110780647e87b624afb7a2d6e65612ad4595.png)
+
+```tex
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{figures/geometry}
+\end{figure}
+```
+
+## Tables
+Tables can be a real pain in LaTeX! For large or complex tables, find a tool to help generate your table:
+- http://www.tablesgenerator.com/
+
+```tex
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{ll}
+Date       & Temperature \\
+2016-11-18 & 10          \\
+2016-11-19 & 9           \\
+2016-11-20 & 6          
+\end{tabular}
+\end{table}
+```
+
