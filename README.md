@@ -32,3 +32,10 @@ Equations can be inserted in-line between `$$` symbols, or inside an `equation` 
 ### Challenge
 1. Use the equation-building notation above to build a big, complex equation (don't worry about mathematical validity). Look up one additional mathematical symbol or operator to use (factorials? trigonometric functions? set operations?)
 2. Refer to your big complex equation somewhere in your text body.
+
+## Bibliography & References
+LaTeX uses a system called BibTeX to insert references. You can get BibTeX references from Google Scholar.
+
+## Figures & Images
+
+![Geometry](http://latex.artofproblemsolving.com/4/7/7/4776110780647e87b624afb7a2d6e65612ad4595.png)
