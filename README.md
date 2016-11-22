@@ -99,6 +99,7 @@ Let's insert a figure into our document. Use this one, or find another picture f
   \label{fig:geometry}
   \centering
   \includegraphics[width=0.5\textwidth]{figures/geometry}
+  \caption{Ultimate proof of the secrets of the universe.}
 \end{figure}
 ```
 
