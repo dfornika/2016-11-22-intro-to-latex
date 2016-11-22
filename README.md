@@ -21,3 +21,8 @@ Equations can be inserted in-line between `$$` symbols, or inside an `equation` 
   \sum_{x=0}^n f(x)
 \end{equation}
 ```
+### Some Useful Equation-Building Notation
+- Exponent: `^` eg: `e^{x}`
+- Subscript: `_` eg: `x_{i}`
+- Fractions: `\frac{}{} eg: `\frac{x}{y}`
+- Summation: `\sum{}` eg: `\sum_{n=0}^{\infty} x_{n}`
