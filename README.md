@@ -44,8 +44,10 @@ We use the command `\ref{eqn:sum}` to generate a numbered reference to that equa
 ### Some Useful Equation-Building Notation
 - Exponent: `^` eg: `e^{x}`
 - Subscript: `_` eg: `x_{i}`
+- Multiplication: `\times` eg: `5 \times 8`
 - Fractions: `\frac{}{}` eg: `\frac{x}{y}`
 - Summation: `\sum{}` eg: `\sum_{n=0}^{\infty} x_{n}`
+- Product: `\prod_{n=1}^{100} x_{n}`
 - Radicals: `\sqrt[]{}` eg: `\sqrt{64}` or `\sqrt[3]{64}`
 
 ### Challenge
