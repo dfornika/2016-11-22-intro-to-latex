@@ -96,9 +96,9 @@ Let's insert a figure into our document. Use this one, or find another picture f
 
 ```tex
 \begin{figure}[h]
-\label{fig:geometry}
-\centering
-\includegraphics[width=0.5\textwidth]{figures/geometry}
+  \label{fig:geometry}
+  \centering
+  \includegraphics[width=0.5\textwidth]{figures/geometry}
 \end{figure}
 ```
 
@@ -111,7 +111,7 @@ Tables can be a real pain in LaTeX! For large or complex tables, find a tool to 
 \centering
 \caption{It gets colder every day.}
 \label{table:temperature}
-\begin{tabular}{ll}
+\begin{tabular}{l l}
 Date       & Temperature \\
 2016-11-18 & 10          \\
 2016-11-19 & 9           \\
