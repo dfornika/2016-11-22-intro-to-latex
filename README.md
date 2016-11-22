@@ -27,3 +27,7 @@ Equations can be inserted in-line between `$$` symbols, or inside an `equation` 
 - Fractions: `\frac{}{}` eg: `\frac{x}{y}`
 - Summation: `\sum{}` eg: `\sum_{n=0}^{\infty} x_{n}`
 - Radicals: `\sqrt[]{}` eg: `\sqrt{64}` or `\sqrt[3]{64}`
+
+### Challenge
+1. Use the equation-building notation above to build a big, complex equation (don't worry about mathematical validity). Look up one additional mathematical symbol or operator to use (factorials? trigonometric functions? set operations?)
+2. Refer to your big complex equation somewhere in your text body.
