@@ -112,3 +112,8 @@ Date       & Temperature \\
 \end{table}
 ```
 
+## Additional Resources
+- https://www.sharelatex.com/learn
+- http://tex.stackexchange.com/
+- https://en.wikibooks.org/wiki/LaTeX
+- http://www.lib.sfu.ca/help/publish/thesis/templates#latex
