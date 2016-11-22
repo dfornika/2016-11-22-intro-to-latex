@@ -127,3 +127,4 @@ Tables can be a real pain in LaTeX! For large or complex tables, find a tool to 
 - http://tex.stackexchange.com/
 - https://en.wikibooks.org/wiki/LaTeX
 - http://www.lib.sfu.ca/help/publish/thesis/templates#latex
+- https://www.tug.org/texlive/
