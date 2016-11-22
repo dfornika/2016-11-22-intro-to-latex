@@ -15,6 +15,9 @@
 3. Divide the text into several sections using the `\section{}` and `\subsection{}` 
 
 ## Mathematical Equations
+Equations can be inserted in-line between `$$` symbols, or inside an `equation` block:
 ```tex
-\sum_{x=0}^n f(x)
+\begin{equation}
+  \sum_{x=0}^n f(x)
+\end{equation}
 ```
