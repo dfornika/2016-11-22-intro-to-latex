@@ -35,6 +35,7 @@ Equations can be inserted in-line between `$$` symbols, or inside an `equation` 
 
 ## Bibliography & References
 LaTeX uses a system called BibTeX to insert references. You can get BibTeX references from Google Scholar.
+
 1. Create a new file called `references.bib`
 2. Paste this into your `.bib` file
 
@@ -50,7 +51,9 @@ LaTeX uses a system called BibTeX to insert references. You can get BibTeX refer
     publisher={American Association for the Advancement of Science}
   }
 ```
+
 3. Enter the following into the top of your `main.tex` file:
+
 ```
     \usepackage[
     backend=biber,
@@ -60,6 +63,7 @@ LaTeX uses a system called BibTeX to insert references. You can get BibTeX refer
     
     \addbibresource{references.bib}
 ``` 
+
 4. Include a citation somewhere in your text by adding `\cite{venter2001sequence}`
 
 ### Challenge
