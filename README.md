@@ -12,7 +12,8 @@
     Etiam vel augue in sapien euismod congue vitae a justo. Sed facilisis dolor eu lacus rhoncus placerat. Aliquam eu urna convallis, convallis eros quis, scelerisque dolor. Maecenas condimentum ligula nibh, quis finibus lorem blandit nec. Nulla tristique facilisis ex eget placerat. Maecenas tincidunt, sapien vel accumsan placerat, augue leo fringilla leo, at suscipit risus massa eget purus. Proin sit amet sapien sit amet sapien dapibus facilisis in vitae ipsum. Phasellus consequat iaculis sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam sed convallis mauris. Maecenas finibus elementum dignissim. In eleifend nisi id risus tincidunt convallis hendrerit at lacus. Pellentesque gravida ipsum vitae orci luctus, quis pulvinar sapien ornare.
 
 2. Hit the blue `Recompile` button to update your .pdf preview.
-3. Divide the text into several sections using the `\section{}` and `\subsection{}` 
+3. Divide the text into several sections using the `\section{}` and `\subsection{}`
+4. Insert a table of contents by adding `\tableofcontents` after `\maketitle`
 
 ## Mathematical Equations
 Equations can be inserted in-line between `$$` symbols, or inside an `equation` block:
